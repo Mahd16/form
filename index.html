@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7a1ab4d73f.js" crossorigin="anonymous"></script>
+    <title>فرم ثبت نام</title>
+</head>
+<body>
+    <header>
+       <div class="cards">
+          <div class="user">
+            <i class="fa-solid fa-user"></i>
+            <span>پروفایل</span> 
+          </div>
+          <div class="home">
+            <i class="fa-solid fa-home"></i>
+            <span><a href="./insta project/index.html">خانه</a></span>
+          </div> 
+        </div> 
+        <button id="button">ورود و ثبت نام</button>
+    </header>
+
+    <main>
+
+      <form action="">
+
+        <section>
+        کاربر گرامی لطفا اطلاعات خود را با دقت وارد کنید
+        </section>
+
+
+            <fieldset class="personal">
+              <legend>اطلاعات شخصی</legend>
+               <label for="fn">نام:
+                <input type="text" id="fn">
+               </label>
+
+               <label for="ln">نام خانوادگی:
+                <input type="text" id="ln">
+               </label>
+
+               <label for="phone">شماره همراه:
+                <input type="number" id="phone" > 
+               </label>
+
+               <label for="pic">تصویر پرسنلی:
+                <input type="file" id="pic" accept="image/*">
+               </label>
+
+               <span class="item">
+               جنسیت:
+               مرد
+               <input type="radio" name="gender" id="male">
+               زن
+                <input type="radio" name="gender" id="female">
+               </span>
+
+               <label for="nc">کد ملی:
+                <input type="number" id="nc" > 
+               </label>
+
+               <label for="edu">تحصیلات:
+                <select name="" id="edu">
+                  <option value="">زیر دیپلم</option>
+                  <option value="">دیپلم</option>
+                  <option value="">دانشجوی کارشناسی</option>
+                  <option value="">لیسانس</option>
+                  <option value="">فوق لیسانس</option>
+                  <option value="">دکترا</option>
+
+                </select> </label>
+               
+
+               <label for="bd">تاریخ تولد:  
+                <input type="date" id="bd"> 
+              </label>
+
+          </fieldset>
+
+          <fieldset class="address">
+            <legend>اطلاعات آدرس</legend>
+             <label for="city">شهر محل سکونت: 
+              <select name="" id="city">
+                  <option value="">تهران</option>
+                  <option value="">اراک</option>
+                  <option value="">همدان</option>
+                  <option value="">قم</option>
+                  <option value="">ساوه</option>
+                  <option value="">کرج</option>
+
+              </select> 
+             </label>
+              
+
+            <label for="ac">کد منطقه:
+              <input type="number" id="ac"> 
+            </label>
+
+            <label for="pc"> کد پستی:
+              <input type="number" id="pc"> 
+            </label>
+
+            <label for="ad">نشانی:
+              <input type="text" id="ad"> 
+            </label>
+
+            <label for="p">پلاک:
+              <input type="number" id="p"> 
+            </label>
+
+          </fieldset>
+
+          <fieldset class="contact">    
+            <legend>اطلاعات تماس</legend>
+
+               <label for="tel">شماره تلفن ثابت:
+                <input type="tel" id="tel" minlength="11" maxlength="11"> 
+               </label>
+
+               <label for="email">ایمیل:
+                <input type="email" id="email"> 
+               </label>
+          </fieldset>
+
+               <label for="ta"> از چه طریقی با این سایت آشنا شدید؟</label>
+               <textarea name="" id="ta" cols="70" rows="2"></textarea>
+              
+               <div class="none">
+               </div>
+
+               <div class="buttons">
+
+                <label>
+                تایید میکنم اطلاعات خود را به درستی وارد کرده ام
+                <input type="checkbox">
+                </label>
+                <input type="submit" value="ثبت اطلاعات" id="button">
+                <input type="reset" value="پاک کردن اطلاعات" id="button">
+
+              </div>
+    
+         
+      </form>
+
+
+    </main>
+
+
+    <footer>
+          <div class="section1">
+            <div class="title">
+              درباره ما
+            </div>
+            <div class="des">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </div>
+          </div>
+          <div class="section2">
+            <div class="title">
+              ما را در شبکه های اجتماعی دنبال کنید 
+            </div>
+            <div class="socials">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-telegram-plane"></i></a>
+            </div>
+          </div>
+      <div class="bottom">
+        کلیه حقوق محفوظ می باشد 2019 ©
+      </div>
+      
+    </footer>
+
+</body>
+</html>
